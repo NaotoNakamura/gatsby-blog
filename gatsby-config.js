@@ -21,7 +21,8 @@ module.exports = {
         accessToken: process.env.GATSBY_CONTENTFUL_API_KEY,
       },
     },
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-typegen",
   ],
 }
