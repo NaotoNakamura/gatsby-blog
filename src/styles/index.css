@@ -1,0 +1,30 @@
+.articles_index {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.articles {
+  width: 60%;
+  margin: 60px auto 0 auto;
+}
+
+.articles__list__item {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  border-radius: 10px;
+  height: 150px;
+  border: 1px solid #CCC;
+  box-shadow: 10px 10px 10px #CCC;
+  display: flex;
+}
+
+.article__img {
+  width: 280px;
+  height: 140px;
+  margin: 5px 25px 0 0;
+  background-color: rgb(195, 220, 241);
+}
+
+li {
+  list-style: none;
+}
