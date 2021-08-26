@@ -5,6 +5,7 @@
 
 .articles {
   width: 60%;
+  min-height: 705px;
   margin: 60px auto 0 auto;
 }
 
