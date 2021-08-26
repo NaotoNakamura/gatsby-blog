@@ -16,7 +16,7 @@ const Article: React.FC<Props> = ({ pageContext }) => {
       <div className="article">
         <div className="article-card">
           <div className="article-contents">
-            <div className="artcle-title">{title}</div>
+            <div className="article-title">{title}</div>
             <p className="updated-date">{updatedAt}</p>
             <img
               src={image?.file?.url}

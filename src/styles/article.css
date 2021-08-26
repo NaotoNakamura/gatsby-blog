@@ -15,9 +15,13 @@
   padding: 70px 70px 0 70px;
 }
 
-.artcle-title {
+.article-title {
   font-size: 2.2em;
   font-weight: bold;
+}
+
+.article-img {
+  width: 100%;
 }
 
 .updated-date {
