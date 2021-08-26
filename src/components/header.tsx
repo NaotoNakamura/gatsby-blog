@@ -5,7 +5,9 @@ import "../styles/header.css"
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <Link to="/">ブログタイトル</Link>
+      <Link to="/" className="header-link">
+        ブログタイトル
+      </Link>
     </header>
   )
 }
