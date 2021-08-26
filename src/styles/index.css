@@ -1,15 +1,19 @@
-.articles_index {
-  padding-top: 30px;
-  text-align: center;
-}
-
 .articles {
   width: 60%;
   min-height: 705px;
   margin: 60px auto 0 auto;
 }
 
-.articles__list__item {
+.articles-index {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.articles-link {
+  text-decoration: none;
+}
+
+.articles-item {
   padding: 0.5em 1em;
   margin: 2em 0;
   border-radius: 10px;
@@ -19,7 +23,7 @@
   display: flex;
 }
 
-.article__img {
+.articles-img {
   width: 280px;
   height: 140px;
   margin: 5px 25px 0 0;
