@@ -14,14 +14,14 @@ const Article: React.FC<Props> = ({ pageContext }) => {
   return (
     <Layout>
       <div className="article">
-        <div className="article_card">
-          <div className="article_contents">
-            <div className="artcle_title">{title}</div>
-            <p className="post-date">{updatedAt}</p>
+        <div className="article-card">
+          <div className="article-contents">
+            <div className="artcle-title">{title}</div>
+            <p className="updated-date">{updatedAt}</p>
             <img
               src={image?.file?.url}
-              className="post-image"
-              alt="post-cover"
+              className="article-img"
+              alt="main-image"
             ></img>
             <div dangerouslySetInnerHTML={{ __html: body! }} />
           </div>
