@@ -61,7 +61,7 @@ th {
   position: relative;
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   color: #eee;
-  background: #777;
+  background: rgb(119, 115, 91);
   border-top-left-radius: 0.3em;
   border-top-right-radius: 0.3em;
   padding: 3px;
