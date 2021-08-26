@@ -28,7 +28,7 @@ module.exports = {
         footnotes: true,
         pedantic: true,
         gfm: true,
-        plugins: [],
+        plugins: [`gatsby-remark-prismjs-title`, `gatsby-remark-prismjs`],
       },
     },
     "gatsby-plugin-image",
