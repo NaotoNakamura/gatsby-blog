@@ -14,6 +14,7 @@ const Home: React.FC<PageProps<GatsbyTypes.Query>> = ({ data }) => {
               <Link
                 to={`/article/${edge.node.slug}/`}
                 className="articles-link"
+                key={edge.node.slug}
               >
                 <li className="articles-item">
                   <img
